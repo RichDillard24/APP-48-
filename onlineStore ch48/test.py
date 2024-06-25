@@ -44,13 +44,12 @@
 
 # me["age"]=99
 # print(me)
-
 def printMenu():
     print("1. Add")
     print("2. Subtract")
     print("3. Multiply")
     print("4. Divide")
-    print("5. Quit")
+
     
 printMenu()
 opt = input("select the option")
@@ -61,3 +60,16 @@ number2=float(input("please give me the second number"))
 if opt == "1":
     total= number1 + number2
     print("the total is:"+ str(total))
+elif opt=="2":
+    total= number1 - number2
+    print("the total is:"+ str(total))
+elif opt=="3":
+    total= number1 * number2
+    print("the total is:"+ str(total))
+elif opt=="4":
+   if number2==0:
+        print("cant divide by zero")
+   else:
+       total= number1 / number2
+       print("the total is:"+ str(total))
+    
