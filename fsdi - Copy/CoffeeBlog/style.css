@@ -1,0 +1,177 @@
+/*global*/
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2,h3{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+h2{
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
+p{
+    line-height: 1.5;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+/*utilities*/
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-read-more{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.btn-More-Information{
+    display: inline-block;
+    background-color: rgb(116, 53, 8);
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.subtitle{
+    display: inline-block;
+    background-color: saddlebrown;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.main-about-container{
+    text-align: center; 
+    font-weight: bold;
+    font-size: medium;
+}
+.about-flex-containter{
+    background-image: url(./img/coffee-images-main/blog3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+.about-container{
+    display: block;
+    background-color: black;
+    color: #dedede;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    width:100%;
+    height:100px;
+}
+/*header*/
+header.site-init{
+background-image: url(./img/coffee-images-main/banner.jpg);
+background-position: center center;
+background-size: cover;
+height: 400px;
+color: white;
+text-align: center;
+}
+header.site-init .hl-text{
+    font-weight:bold;
+    font-size: 20px;
+}
+header.site-secondary{
+    background-color: black;
+    height: 100px;
+    color: white;
+}
+.bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+/*menu*/
+.menu a{
+    color: white;
+    margin-right: 20px;
+}
+/*main*/
+main{
+    height: 100%;
+}
+.main-flex-container{
+    display: flex;
+}
+.blog-container{
+    width: 65%;
+    margin-right: 20px;
+}
+.course-container{
+    width: 35%;
+}
+.blog-item{
+    margin-bottom: 20px;
+    border-bottom:1px solid #dedede;
+    padding-bottom: 20px;
+}
+/*footer*/
+footer{
+    background-color: black;
+    height: 100px;
+}
+footer h1{
+    color: white;
+}
+/*contact*/
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+}
+.form-container{
+    background-color: white;
+    margin-top: -30px;
+    padding: 30px;
+}
+.input-control{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.input-control label{
+    display: inline-block;
+    width: 100px;
+    background-color: white;
+    text-align: right;
+}
+.input-control input,
+.input-control textarea{
+    padding: 4px;
+    width: 70%;
+    border: none;
+    background-color: #dedede;
+    border-radius: 3px;
+}
+/*course*/
+.course-container{
+    display: inline-block;
+    flex-direction: column;
+}
+.input-control label{
+    display: inline-block;
+    width: 100px;
+    background-color: white;
+    text-align: right;
+}
